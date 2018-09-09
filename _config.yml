@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: dolphinfine的博客
-subtitle:
+title: 纸上得来终觉浅，绝知此事要躬行
+subtitle: 
 description: 分享与前端相关的可视化技术、vue使用心得、js使用技巧、个人思考
 keywords: 可视化、js、highcharts、d3.js、vue、axios
 author: dolphinfine
@@ -82,3 +82,9 @@ deploy:
   type: git
   repo: ssh://git@github.com/dolphinfine/dolphinfine.github.io
   branch: master
+
+# plugin
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+path: baidusitemap.xml
